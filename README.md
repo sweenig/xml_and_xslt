@@ -880,4 +880,6 @@ Line 170 specifies to go to the NMS node. Since we're inside the nimsoft templat
 Particularly, this piece of the XSLT builds a table and inserts the values of the various children nodes of the NMS node (lines 369-383 &amp; 389-393). Lines 384-388 specify another `xsl:apply-templates` tag (disks/disk), which means the browser moves to that node and processes the children; see lines 422-427. This nested template outputs a single row for each disk under NMS/disks/. Once all the children are processed, the browser returns to the template that called the apply-templates tag.
 Lines 172, 174, & 176 use similar templates, which either call their own templates or existing templates. For example, both the NMS and UMP templates call the disks/disk template since the disks are stored in the same way as the parent.
 And that's about it. By walking through the XSLT with the XML right beside it, you can see how the final result is made. Simply opening the XML in IE was enough to get the information to display. It is pretty trivial from there to generate a PDF version of the report.
+
+
 ![Sample Report](readme_images/Sample.PNG)
