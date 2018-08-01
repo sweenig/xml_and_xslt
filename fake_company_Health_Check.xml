@@ -1,0 +1,108 @@
+<?xml-stylesheet type="text/xsl" href="health_check_files/Health_Check.xsl"?>
+<nimsoft>
+	<reportinfo>
+		<company>Fake Company</company>
+		<authors>Mickey Mouse</authors>
+		<reportdate>06 Feb 2014</reportdate>
+	</reportinfo>
+	<NMS>
+		<robot>fcnimsvr</robot>
+		<os_class>Windows Server 2008 R2 Enterprise Edition, 64-bit Service Pack 1 Build 7601</os_class>
+		<processor>Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz</processor>
+		<proccount>12</proccount>
+		<memory_phy>11.98828125 GB</memory_phy>
+		<nim_root>C:\Program Files (x86)\Nimsoft</nim_root>
+		<disks>
+			<disk id="1">
+				<name>C:\</name>
+				<free_space>56.234375 GB</free_space>
+			</disk>
+			<disk id="2">
+				<name>E:\</name>
+				<free_space>152.2275390625 GB</free_space>
+			</disk>
+		</disks>
+		<dbversion>Microsoft SQL Server 2008 R2 (SP1) - 10.50.2500.0 (X64) 	Jun 17 2011 00:54:03 	Copyright (c) Microsoft Corporation	Enterprise Edition (64-bit) on Windows NT 6.1 &lt;X64&gt; (Build 7601: Service Pack 1)</dbversion>
+		<ip>192.168.0.27</ip>
+		<nms_ver>Nimsoft Server 6.1</nms_ver>
+	</NMS>
+
+	<UMP>
+		<robot>fcnimsvr</robot>
+		<os_class>Windows Server 2008 R2 Enterprise Edition, 64-bit Service Pack 1 Build 7601</os_class>
+		<processor>Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz</processor>
+		<proccount>12</proccount>
+		<memory_phy>11.98828125 GB</memory_phy>
+		<nim_root>C:\Program Files (x86)\Nimsoft</nim_root>
+		<disks>
+			<disk id="1">
+				<name>C:\</name>
+				<free_space>56.234375 GB</free_space>
+			</disk>
+			<disk id="2">
+				<name>E:\</name>
+				<free_space>152.2275390625 GB</free_space>
+			</disk>
+		</disks>
+		<ip>192.168.0.27</ip>
+		<ver>Version      = 6.0.0</ver>
+		<port>80</port>
+	</UMP>
+
+	<DBS>
+		<host>fcSQL01</host>
+		<port>1433</port>
+		<os_class>Windows Server 2008 R2 Enterprise Service Pack 1</os_class>
+		<db_name>NimSLM</db_name>
+
+	<machine_name>fcSQL01</machine_name>
+	<memory>
+		<row name="0">
+			<memory>12276</memory>
+			<pagesize>8192</pagesize>
+			<hostname>fcsql01.fakecompany.local</hostname>
+		</row>
+	</memory>
+	<os>WINDOWS</os>
+	<hostname>fcsql01.fakecompany.local</hostname>
+	<IPAddress>192.168.0.28</IPAddress>
+	<disk>
+		<row name="1">
+			<diskdevice>0</diskdevice>
+			<type>0</type>
+			<filesystem>E:\</filesystem>
+			<hostname>fcsql01.fakecompany.local</hostname>
+		</row>
+		<row name="0">
+			<diskdevice>0</diskdevice>
+			<type>0</type>
+			<filesystem>C:\</filesystem>
+			<hostname>fcsql01.fakecompany.local</hostname>
+		</row>
+	</disk>
+	<cpu>
+		<row name="0">
+			<cpuid>0</cpuid>
+			<architecture>x64</architecture>
+			<address_width>64</address_width>
+			<hostname>fcsql01.fakecompany.local</hostname>
+		</row>
+	</cpu>
+	<os_description>Microsoft Windows Server 2008 R2 Enterprise</os_description>
+	</DBS>
+
+	<hubs>
+		<hub id="1">
+			<name>Monitor_Hub-01</name>
+			<subs>2</subs>
+		</hub>
+		<hub id="2">
+			<name>fcbackup</name>
+			<subs>2</subs>
+		</hub>
+		<hub id="3">
+			<name>fcNIMSVRhub</name>
+			<subs>28</subs>
+		</hub>
+	</hubs>
+</nimsoft>

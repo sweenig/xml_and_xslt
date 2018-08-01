@@ -1,0 +1,116 @@
+body {margin:1% 5%;}
+h1 {
+	color:#133CAC;
+	width:100%;
+	border-style:solid;
+	border-width:0px 0px 3px 0px;
+	border-color:#133CAC;
+}
+h2 {color:#2B4281;margin-left:2.5%}
+p {margin:10px 0px 10px 10%;}
+ul {margin:0px 0px 10px 10%;}
+#legal_notices {font-size:10px;}
+#helptoggler {position:absolute;left:0px;top:0px;}
+#helptoggler > img {visibility:hidden;width:32px;height:auto;}
+#helptoggler:hover > img {visibility:visible;}
+.fw_image {max-width:100%;height:auto;}
+.highlight {font-weight:bold;}
+.separator {margin:5%;}
+.littleseparator {margin:1%;}
+.prettify {
+	margin-left:10%;
+	padding:0px;
+	width:90%;
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #6d89d5;
+	-moz-border-radius-bottomleft:0px;-webkit-border-bottom-left-radius:0px;border-bottom-left-radius:0px;-moz-border-radius-bottomright:0px;-webkit-border-bottom-right-radius:0px;border-bottom-right-radius:0px;-moz-border-radius-topright:0px;-webkit-border-top-right-radius:0px;border-top-right-radius:0px;-moz-border-radius-topleft:0px;-webkit-border-top-left-radius:0px;border-top-left-radius:0px;
+}
+.prettify table{
+	border-collapse: collapse;
+	border-spacing: 0;
+	width:100%;
+	margin:0px;padding:0px;
+	border:1px solid #6d89d5;
+}
+.prettify tr:last-child td:last-child {-moz-border-radius-bottomright:0px;-webkit-border-bottom-right-radius:0px;border-bottom-right-radius:0px;}
+.prettify table tr:first-child td:first-child {-moz-border-radius-topleft:0px;-webkit-border-top-left-radius:0px;border-top-left-radius:0px;}
+.prettify table tr:first-child td:last-child {-moz-border-radius-topright:0px;-webkit-border-top-right-radius:0px;border-top-right-radius:0px;}
+.prettify tr:last-child td:first-child{-moz-border-radius-bottomleft:0px;-webkit-border-bottom-left-radius:0px;border-bottom-left-radius:0px;}
+.prettify tr:nth-child(odd){ background-color:#062270; }
+.prettify tr:nth-child(even) { background-color:#476dd5; }
+.prettify td{
+	vertical-align:middle;
+	border:1px solid #6d89d5;
+	text-align:left;
+	padding:7px;
+	font-weight:normal;
+	color:#ffffff;
+}
+.prettify tr:first-child td{
+	background:-o-linear-gradient(bottom, #133cac 5%, #2b4281 100%);
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #133cac), color-stop(1, #2b4281) );
+	background:-moz-linear-gradient( center top, #133cac 5%, #2b4281 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#133cac", endColorstr="#2b4281");
+	background: -o-linear-gradient(top,#133cac,2b4281);
+	background-color:#133cac;
+	text-align:left;
+	font-weight:bold;
+	color:#ffffff;
+	padding:25px 10px;
+}
+.prettify h1 {color:white;border-width:0px;}
+.prettify h2 {color:white;border-width:0px;}
+.editablecontent {
+	position:relative;
+	margin-left:10%;
+}
+.editablecontent ul {margin-left:0px;}
+.editablecontent > img,input {
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	height:25px;
+	width:auto;
+	visibility:hidden;
+	margin-right:20px;
+	margin-bottom:2px;
+}
+.editablecontent:hover > img,input {visibility:visible;}
+.editablecontent div {border:1px solid red;}
+.editablecontent textarea {
+	border:1px solid red;
+	background-color:#FFAD00;
+	height:200px;
+	width:100%;
+}
+.example {
+	color:red;
+	font-weight:bold;
+}
+.emphasis {
+	font-weight:bold;
+	text-decoration:underline;
+}
+.primary-1 { background-color: #133CAC }
+.primary-2 { background-color: #2B4281 }
+.primary-3 { background-color: #062270 }
+.primary-4 { background-color: #476DD5 }
+.primary-5 { background-color: #6D89D5 }
+
+.secondary-a-1 { background-color: #3C13AF }
+.secondary-a-2 { background-color: #432C83 }
+.secondary-a-3 { background-color: #230672 }
+.secondary-a-4 { background-color: #6D48D7 }
+.secondary-a-5 { background-color: #8A6ED7 }
+
+.secondary-b-1 { background-color: #028E9B }
+.secondary-b-2 { background-color: #1E6D74 }
+.secondary-b-3 { background-color: #015C65 }
+.secondary-b-4 { background-color: #35C0CD }
+.secondary-b-5 { background-color: #5EC4CD }
+
+.complement-1 { background-color: #FFAD00 }
+.complement-2 { background-color: #BF9130 }
+.complement-3 { background-color: #A67000 }
+.complement-4 { background-color: #FFC140 }
+.complement-5 { background-color: #FFD273 }
